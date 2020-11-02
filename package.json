@@ -1,0 +1,29 @@
+{
+  "name": "data-table",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iromashko/data-table.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iromashko/data-table/issues"
+  },
+  "homepage": "https://github.com/iromashko/data-table#readme",
+  "dependencies": {
+    "chance": "^1.1.7",
+    "express": "^4.17.1",
+    "shuffle-array": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
