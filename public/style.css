@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap");
+.table-refresh {
+  min-width: 400px;
+  max-width: 1000px;
+  font-size: 14px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.table-refresh__table {
+  border-collapse: collapse;
+  width: 100%;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-bottom: 2px solid #009578;
+}
+
+.table-refresh__table thead tr {
+  background: #009578;
+  color: white;
+}
+
+.table-refresh__table tbody tr:nth-of-type(even) {
+  background: #eeeeee;
+}
+
+.table-refresh__table th,
+.table-refresh__table td {
+  text-align: left;
+  padding: 9px 18px;
+  font-weight: normal;
+}
+
+.table-refresh__options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 10px 0;
+}
+
+.table-refresh__options > *:not(:last-child) {
+  margin-right: 12px;
+}
+
+.table-refresh__button {
+  background: #eeeeee;
+  color: #333333;
+  border: none;
+  outline: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.table-refresh__button > i {
+  font-size: 1.2em;
+}
+
+.table-refresh__button--refreshing {
+  -webkit-animation: 0.5s rotate infinite linear;
+          animation: 0.5s rotate infinite linear;
+}
+
+.table-refresh__label {
+  font-size: 0.8em;
+  color: #999999;
+}
+
+@-webkit-keyframes rotate {
+  to {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
+}
+
+@keyframes rotate {
+  to {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
+}
+/*# sourceMappingURL=style.css.map */
